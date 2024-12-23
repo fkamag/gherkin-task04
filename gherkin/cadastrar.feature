@@ -21,7 +21,7 @@ Feature: Cadastrar-se
     And o usuário insere a senha "Senha123" no campo Confirmar Senha
     And o usuário clica no botão "Cadastrar-se"
     Then o usuário  não é direcionado para a tela de confirmação de número
-    And é exibido mensagem "Campo obrigatório no campo Nome Completo
+    And é exibido mensagem "Campo obrigatório" no campo Nome Completo
 
   Scenario: Criar cadastro sem o campo CPF preenchido
     Given que o usuário acessou tela de cadastro
@@ -33,7 +33,7 @@ Feature: Cadastrar-se
     And o usuário insere a senha "Senha123" no campo Confirmar Senha
     And o usuário clica no botão "Cadastrar-se"
     Then o usuário  não é direcionado para a tela de confirmação de número
-    And é exibido mensagem "Campo obrigatório no campo CPF
+    And é exibido mensagem "Campo obrigatório" no campo CPF
 
   Scenario: Criar cadastro sem o campo DDD preenchido
     Given que o usuário acessou tela de cadastro
@@ -45,7 +45,7 @@ Feature: Cadastrar-se
     And o usuário insere a senha "Senha123" no campo Confirmar Senha
     And o usuário clica no botão "Cadastrar-se"
     Then o usuário  não é direcionado para a tela de confirmação de número
-    And é exibido mensagem "Campo obrigatório no campo DDD
+    And é exibido mensagem "Campo obrigatório" no campo DDD
 
   Scenario: Criar cadastro sem o campo Número Celular preenchido
     Given que o usuário acessou tela de cadastro
@@ -57,7 +57,7 @@ Feature: Cadastrar-se
     And o usuário insere a senha "Senha123" no campo Confirmar Senha
     And o usuário clica no botão "Cadastrar-se"
     Then o usuário  não é direcionado para a tela de confirmação de número
-    And é exibido mensagem "Campo obrigatório no campo Número Celular
+    And é exibido mensagem "Campo obrigatório" no campo Número Celular
 
   Scenario: Criar cadastro sem o campo Senha preenchido
     Given que o usuário acessou tela de cadastro
@@ -69,7 +69,7 @@ Feature: Cadastrar-se
     And o usuário insere a senha "Senha123" no campo Confirmar Senha
     And o usuário clica no botão "Cadastrar-se"
     Then o usuário  não é direcionado para a tela de confirmação de número
-    And é exibido mensagem "Campo obrigatório no campo Senha
+    And é exibido mensagem "Campo obrigatório" no campo Senha
 
   Scenario: Criar cadastro sem o campo Confirmar Senha preenchido
     Given que o usuário acessou tela de cadastro
@@ -81,7 +81,7 @@ Feature: Cadastrar-se
     And o usuário não preenche o campo Confirmar Senha
     And o usuário clica no botão "Cadastrar-se"
     Then o usuário  não é direcionado para a tela de confirmação de número
-    And é exibido mensagem "Campo obrigatório no campo Confirmar Senha
+    And é exibido mensagem "Campo obrigatório" no campo Confirmar Senha
 
   Scenario: Criar cadastro com Nome Completo inválido
     Given que o usuário acessou tela de cadastro
