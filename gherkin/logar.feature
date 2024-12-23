@@ -19,7 +19,7 @@ Feature: Logar
     When o usuário não preenche o campo CPF
     And o usuário insere a senha "Senha123" no campo Senha
     Then usuário não é direcionado para a tela Home
-    And é exibido mensagem "Campo obrigatório" no campo Senha
+    And é exibido mensagem "Campo obrigatório" no campo CPF
 
   Scenario: Logar no aplicativo com cpf inválido
     Given usuário acessou tela Logar
